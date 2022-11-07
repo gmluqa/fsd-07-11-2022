@@ -1,5 +1,11 @@
+// import App from "./App";
+
 const App2 = () => {
-  return "My first react component!";
+  return (
+    <div>
+      <div>This is a returned div</div>
+    </div>
+  );
 };
 
 export default App2;
