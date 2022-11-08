@@ -3,11 +3,11 @@ import './App.css';
 import Header from './components/Header/Headers';
 import Home from './containters/Home/Home';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header />
-      <Home nombre={"Pepe"} />
+      <Home nombre={"Pepe"} apellido={"Gomez"} />
     </div>
   );
 }
