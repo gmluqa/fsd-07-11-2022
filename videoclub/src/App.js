@@ -2,12 +2,15 @@
 import './App.css';
 import Header from './components/Header/Headers';
 import Home from './containters/Home/Home';
+import Login from './containters/Login/Login';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Header />
       <Home nombre={"Pepe"} apellido={"Gomez"} />
+      <Home nombre={"Pepe"} apellido={"Gadafa"} />
+      <Login />
     </div>
   );
 }
