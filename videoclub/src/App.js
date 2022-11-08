@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Headers';
 import Home from './containters/Home/Home';
 import Login from './containters/Login/Login';
+import Register from './containters/Register/Register';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home nombre={"Pepe"} apellido={"Gomez"} />
       <Home nombre={"Pepe"} apellido={"Gadafa"} />
       <Login />
+      <Register />
     </div>
   );
 }
